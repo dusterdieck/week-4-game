@@ -1,14 +1,44 @@
 <!DOCTYPE html>
+<html lang='en-us'>
 
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Star Wars RPG</title>
+
+    <!-- Google Font Orbitron -->
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+    <!-- My reset and stylesheets -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 
 
 <body>
+    
 
-	
+    <div id="game-area">  
+    <div id="game-title"><h1>Star Wars RPG!</h1></div>    
+        <div id="character-select"></div>
+        <div id="player"><h2>Your Character</h2></div>
+        <div><h2>Enemies Available to Attack</h2></div>
+        <div id="enemies"></div>
+        <div class="float-left" id="fight-section"><h2>Fight Section<h2><br>
+                                <button id="attack">Attack</button>
+        </div>
+        <div class="float-left" id="defender"><br><h2>Defender</h2></div>
+        <div class="float-left" id="messages"><h3></h3></div>
+    </div>
+
+
+
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
 </html>

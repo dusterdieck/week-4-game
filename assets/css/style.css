@@ -1,0 +1,97 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: 'Orbitron', sans-serif;
+	margin: 0 20px;
+}
+
+#game-title {
+	float: right;
+	
+}
+
+#game-area {
+	width: 70%;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+.character, .player, .enemy, .dead {
+	padding: 2px 22px;
+	border: 4px solid green;
+	margin: 10px 0px;
+	font-size: 18px;
+	text-align: center;
+	float: left;
+	background: white;
+}
+
+.enemy{
+	background: red;
+	border: 4px solid black;
+}
+
+.player{
+	background: green;
+}
+
+.dead{
+	background: #444;
+}
+
+img {
+	width: 200px;
+	height: 150px;
+	padding: 2px 0;
+	margin: 0;
+}
+
+div {
+	display: block;
+}
+
+#character-select{
+	clear: both;
+	overflow: auto;
+}
+
+#player{
+	clear: both;
+	height: 250px;
+}
+
+button {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 24px;
+	border: none;
+}
+
+#attack{
+	background: red;
+	color: white;
+}
+
+#restart{
+	background: yellow;
+}
+
+.float-left{
+	clear: both;
+	float: left;
+}
+
+#messages{
+	line-height: 1.5;
+}
